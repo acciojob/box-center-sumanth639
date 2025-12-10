@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;       
+}
+
+#center-box {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  border: 2px solid black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#center-box p {
+  color: purple;
+  font-weight: bold;
+  margin: 0;
+}
